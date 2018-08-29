@@ -1,0 +1,176 @@
+/* ========================= 03 // BROWSER RESET ======================== */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+    font-synthesis: none;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+
+
+/* ======================= END BROWSER RESET ======================= */
+
+html.index{
+	background-image: url("../images/skyline.jpg"), linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7));
+	background-blend-mode: overlay;
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+
+
+#navBar {
+  list-style-type: none;
+  margin: 0;
+  padding-top: 4%;
+	padding-right: 20px;
+	text-align: right;
+
+}
+
+#navBar li {
+	display: inline;
+	text-align: center;
+}
+
+li a {
+	padding-right: 40px;
+	font-weight: 200;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #736e64;
+}
+
+/* Change the link color on hover */
+li a:hover {
+    color: #bbb7a5;
+		font-weight: 400;
+}
+
+/* Active page shows in nav bar */
+.active {
+    color: #bbb7a5;
+		font-weight: 400;
+}
+
+.mainContent {
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0 20% 2em;
+	/* background-color:rgba(0, 0, 0, 0.8); */
+
+}
+
+h1, h2, h3, h4, h5, h6, #navBar a {
+    font-family:"Montserrat", Verdana, Tahoma, Helvetica, sans-serif;
+		color: #bbb7a5;
+		max-width: 700px;
+		margin: 0 auto 0 auto
+
+
+}
+
+
+
+h1, h2 {
+	padding-top: 23%;
+	padding-bottom: 1.5em;
+  line-height: 2em;
+	font-size: 3.5em;
+	font-weight: 200;
+	text-align: center;
+	max-width: 700px;
+	margin: 0 auto 0 auto
+}
+
+
+
+
+h3{
+	font-size: 1.5em;
+	line-height: 1.5em;
+}
+
+.date{
+	color: #616161;
+	font-weight: 400;
+	font-style: italic;
+	font-size: .8em
+}
+
+
+p {
+	padding: 0 2em 1em 2em;
+	/*padding: top left bottom right  */
+	text-align: left;
+	margin: 10px auto 10px auto;
+	max-width: 700px;
+	font-family: "Merriweather", Georgia, "Times New Roman", Times, serif;
+	font-size: 18px;
+	font-weight: 300;
+	line-height: 1.5;
+	color: #bbb7a5;
+}
+
+li {
+	max-width: 700px;
+	font-family: "Merriweather", Georgia, "Times New Roman", Times, serif;
+	font-size: 16px;
+	color: #bbb7a5;
+	margin-left: 60px;
+	line-height: 1.5em;
+}
+
+#signature{
+	font-family: cursive;
+	text-align: right;
+}
+
+.postImg{
+	width: 40%;
+	padding: .5em 2em .5em 2em;
+}
+
+.postTitle{
+	padding-top: 1em;
+}
+
+.post{
+	font-size: 16px;
+}
+
+a.recipeLink:link{
+	color: #bbb7a5;
+	font-weight: 700;
+	text-decoration: underline;
+}
+a.recipeLink:visited{
+	color: #736e64;
+	font-weight: 300;
+	text-decoration: underline;
+}
